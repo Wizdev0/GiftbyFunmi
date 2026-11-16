@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Geist+Pixel&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Karla:ital,wght@0,200..800;1,200..800&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Public+Sans:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Space+Grotesk:wght@300..700&family=Yuyu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Geist+Pixel&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Karla:ital,wght@0,200..800;1,200..800&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Public+Sans:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Space+Grotesk:wght@300..700&family=Yuyu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Geist+Pixel&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Karla:ital,wght@0,200..800;1,200..800&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Public+Sans:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Space+Grotesk:wght@300..700&family=Yuyu&display=swap');
+
+
+
+.contact-section {
+    margin-top: 30px;
+    height: auto;
+    background-color: #8B5A2B;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding: 20px 50px;
+}
+
+
+.theme-and-links {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* THEME */
+.theme {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    color: #fff;
+}
+
+.theme-p {
+    width: 300px;
+    font-size: 20px;
+    font-family: "inter", sans-serif;
+}
+
+.socials {
+    display: flex;
+    gap: 15px;
+}
+
+.social-links {
+    font-size: 25px;
+    color: #fff;
+    background-color: black;
+    padding: 6px 5px;
+    border-radius: 5px;
+    height: 40px;
+    transition: all 0.3s ease-out;
+}
+
+.social-links:hover{
+    scale: 1.04;
+    cursor: pointer;
+}
+
+.location-div {
+    display: flex;
+    gap: 15px;
+    font-family: 'inter', sans-serif;
+}
+
+/* LINKS */
+
+.links {
+    display: flex;
+    gap: 80px;
+}
+
+.links-and-lnk-head {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.link-head-p{
+    color: #fff;
+    font-family: 'inter', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.link-main {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.link-main a {
+    color: #ffff;
+    opacity: 0.7;
+    text-decoration: none;
+    font-family: 'inter', sans-serif;
+    font-size: 16px;
+    transition: all 0.1s ease-out;
+}
+
+.link-main a:hover{
+    opacity: 1.0;
+    color: #fff;
+    scale: 1.02;
+}
+
+/* SERVICE */
+.service{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.service-head-p{
+    color: #fff;
+    font-family: 'inter', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.service-main{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.service-main-p{
+    color: #ffff;
+    opacity: 0.7;
+    text-decoration: none;
+    font-family: 'inter', sans-serif;
+    font-size: 16px;
+    transition: all 0.1s ease-out;
+}
+
+.service-main-p:hover{
+    opacity: 1.0;
+    color: #fff;
+    scale: 1.02;
+    
+}
+
+hr {
+   border: none;
+  height: 1px;
+  background-color: grey;
+  width: 100%;
+  margin: 10px auto;
+  margin-top: 20px;
+}
+
+.rights-div{
+    display: flex;
+    justify-content: space-between;
+    font-family: "inter", sans-serif;
+}
+
+.right-and-date{
+    display: flex;
+    gap: 20px;
+    font-family: "inter", sans-serif;
+}
+
+.date{
+    font-weight: 500;
+    color: #ffff;
+    font-size: 16px;
+}
+
+.rights{
+    font-weight: 500;
+    color: #ffff;
+    font-size: 16px;
+}
+
+.back-div{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    
+}
+
+.home-top{
+    font-weight: 500;
+    color: #ffff;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.home-top:hover{
+    transform: translateY(-2px);
+}
+
+
+
+/* Normal tablet */
+@media (max-width: 850px) {
+    .theme-and-links{
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .date,
+    .rights,
+    .home-top,
+    .service-main-p,
+    .link-main a{
+        font-size: 14px;
+    }
+
+    .theme-p{
+        font-size: 18px;
+    }
+}
+
+/* PHONES */
+@media (max-width: 560px) {
+    .date,
+    .rights,
+    .home-top
+    {
+        font-size: 10px;
+    }
+}
