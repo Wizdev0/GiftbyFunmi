@@ -66,43 +66,6 @@ giftsbyfunmi/
 
 Note: Adjust the folder structure above to match your actual project.
 
-## Getting Started
-
-Follow these instructions to run the project locally.
-
-### Prerequisites
-
-- Node.js
-- npm
-
-### Installation
-
-1. Clone the repository:
-
-```bash
-git clone YOUR_GITHUB_REPOSITORY_URL
-```
-
-2. Navigate into the project directory:
-
-```bash
-cd giftsbyfunmi
-```
-
-3. Install dependencies:
-
-```bash
-npm install
-```
-
-4. Start the development server:
-
-```bash
-npm run dev
-```
-
-5. Open the local URL displayed in your terminal.
-
 ## Contact and Orders
 
 Customers can contact Giftsbyfunmi through WhatsApp to make enquiries and place orders.
