@@ -7,7 +7,7 @@
     display: flex;
     gap: 350px;
     padding: 10px 70px;
-    margin-top: 10px;
+    margin-top: 0;
     background-color: rgba(210, 170, 140, 0.25);
 }
 
@@ -119,6 +119,7 @@
         margin-right: 0;
         padding: 25px 20px;
         box-sizing: border-box;
+        margin-top: 0;
         
     }
 
