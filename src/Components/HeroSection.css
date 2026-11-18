@@ -175,16 +175,18 @@
     .explore {
         font-size: 14px;
         width: 100%;
-        padding: 25px 80px;
+        padding: 23px 50px;
         border-radius: 5px;
+        text-align: center;
         
     }
 
     .enquiry {
         font-size: 14px;
         width: 100%;
-        padding: 25px 100px;
+        padding: 23px 50px;
         border-radius: 5px;
+        text-align: center;
     }
 
     .hero-picture-div{
