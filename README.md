@@ -64,8 +64,6 @@ giftsbyfunmi/
 └── README.md
 ```
 
-Note: Adjust the folder structure above to match your actual project.
-
 ## Contact and Orders
 
 Customers can contact Giftsbyfunmi through WhatsApp to make enquiries and place orders.
